@@ -14,4 +14,4 @@ customElements.define("ds-cli", CliElement);
 
 let $cli = document.createElement("ds-cli");
 document.body.appendChild($cli);
-alert("done");
+alert("cli component installed");
