@@ -8,7 +8,7 @@ class CliElement extends HTMLElement {
         this.root = this.attachShadow({mode: "open"});
         this.root.innerHTML = `
             <style>
-                ds-cli div {
+                div {
                     box-shadow: 33px 25px 41px 0px rgba(0,0,0,0.75);
                     width: 96%;
                     left: 2%;
