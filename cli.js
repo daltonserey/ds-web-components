@@ -11,7 +11,3 @@ class CliElement extends HTMLElement {
 }
 
 customElements.define("ds-cli", CliElement);
-
-let $cli = document.createElement("ds-cli");
-document.body.appendChild($cli);
-alert("cli component installed");
