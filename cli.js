@@ -5,7 +5,9 @@ class CliElement extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-            <input type="text" placeholder="digite seu comando aqui">
+            <div>
+                <input type="text" placeholder="digite seu comando aqui">
+            </div>
         `;
     }
 }
