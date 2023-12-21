@@ -10,9 +10,8 @@ class CliElement extends HTMLElement {
             <style>
                 div {
                     box-shadow: 33px 25px 41px 0px rgba(0,0,0,0.75);
-                    width: 96%;
-                    left: 2%;
-                    right: 2%;
+                    left: 1em;
+                    right: 1em;
                     bottom: 1em;
                     border: 1px solid black;
                     border-radius: 10px;
